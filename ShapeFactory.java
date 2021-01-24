@@ -22,7 +22,7 @@ public class ShapeFactory
     public int height;
     
     public ShapeFactory(final int shape_type) {
-        this.width = 25;
+        this.width = 3;
         this.height = 25;
         this.stroke = new BasicStroke(3.0f);
         switch (shape_type / 10) {
